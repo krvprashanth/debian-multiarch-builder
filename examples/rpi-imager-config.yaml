@@ -1,6 +1,6 @@
 # Multi-architecture configuration for uv
 package_name: rpi-imager
-github_repo: raspberry/pirpi-imager 
+github_repo: raspberrypi/rpi-imager 
 artifact_format: tar.gz
 
 # Debian distributions to build for
