@@ -1,0 +1,22 @@
+# Multi-architecture configuration for uv
+package_name: rpi-imager
+github_repo: raspberry/pirpi-imager 
+artifact_format: tar.gz
+
+# Debian distributions to build for
+debian_distributions:
+  - bookworm
+  - trixie
+  - forky
+  - sid
+
+# Auto-discovery mode: Simply list architectures
+# Release patterns are automatically discovered from GitHub releases
+architectures:
+  - amd64
+  - arm64
+  - armel
+  - armhf
+  - ppc64el
+  - s390x
+  - riscv64
